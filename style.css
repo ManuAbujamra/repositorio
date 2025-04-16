@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    background-color: #8cffd8;
+    padding: 20px;
+}
+header h1{
+    font-size: 40px;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-right: 122px;
+    font-size: 30px;
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.hero img{
+    border-radius: 20px;
+    width: 800px;
+}
+.hero h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.hero h2{
+    font-size: 40px;
+    font-weight: 300;
+}
+span{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 1px solid black;
+    margin: 30px 0;
+}
+.button{
+    background-color: #8cffd8;
+    border-radius: 34px;
+    padding: 14px 34px;
+    width: 150px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+section{
+    padding: 50px;
+}
+.bottom-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.bottom-div img{
+    width: 800px;
+    border-radius: 20px;
+}
+.rigth-texto{
+    width: 30%;
+}
+.rigth-texto h1{
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+.rigth-texto p{
+    font-size: 25px;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid black;
+    background-color: #cee7ff;
+    border-radius: 20px;
+    padding: 30px;
+    width: 30%;
+    margin: 50px 0;
+}
+.bottom-dicas{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.email{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.email h1{
+    margin-bottom: 0;
+}
+.email h2{
+    font-size: 25px;
+    font-weight: 300;
+    margin: 15px 0;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #ffb800;
+    width: 40%;
+    margin-top: 50px;
+}
+input{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px 0;
+}
+footer{
+    background-color: #8cffd8;
+    margin: 50px 0 0 0;
+    padding: 20px;
+}
